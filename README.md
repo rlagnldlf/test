@@ -34,17 +34,18 @@
 
 ### 소스코드 넣기
 
-'''python
+```python
 sum = 0
 for j in range(10):
     sum += j
 print("sum from 1 to 10 : ",sum)
-python'''
-''' python
+```
+``` python
 import pandas as pd
 file_path = "Enter your file path"
 df = pd.read_csv(file_path)
 df.head
+```
 ## 2. 대표적인 인공지능 API
 ### 2.1 구글
 - [VISION API](https://cloud.google.com/vision?hl=ko)
